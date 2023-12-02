@@ -1,0 +1,29 @@
+{
+  "name": "chapter2-ignitingourapp",
+  "version": "1.0.0",
+  "description": "This is Namastey React by Akshay Saini",
+  
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build":"parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/RaviTesla1/parent.git)"
+  },
+  "author": "Ravi",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.10.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserList":[
+    "last 2 Chrome version",
+    "last 2 Firefox version"
+  ]
+}
