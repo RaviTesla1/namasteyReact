@@ -2,7 +2,7 @@
   "name": "chapter2-ignitingourapp",
   "version": "1.0.0",
   "description": "This is Namastey React by Akshay Saini",
-  "main": "App.js",
+  
   "scripts": {
     "test": "jest"
   },
@@ -13,6 +13,15 @@
   "author": "Ravi",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.10.3"
-  }
+    "parcel": "^2.10.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserList":[
+    "last 2 Chrome version",
+    "last 2 Firefox version"
+  ]
 }

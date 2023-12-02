@@ -31,11 +31,14 @@
 
 // with two child
 
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+
 const parent = React.createElement("div",{id:"paremt"},
 [
     React.createElement("div",{id:"child1"}, 
 [
-    React.createElement("h1",{id:"elder"},"Nestesd" ),
+    React.createElement("h1",{id:"elder"},"This is Namasetey React🚀" ),
     React.createElement("h1",{id:"younger"},"Nestesd Sibling" )
 ]
 ),
