@@ -58,5 +58,5 @@ const heading = React.createElement(
 const root = ReactDOM.createRoot(document.getElementById("root"));
              
 root.render(parent);
-// Edit trail
+
 console.log(parent)
